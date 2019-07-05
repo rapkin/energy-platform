@@ -6,6 +6,7 @@ function App() {
     <div className="sidebar-container">
       <Container>
         <Header>Test</Header>
+        <Button/>
       </Container>
     </div>
   )

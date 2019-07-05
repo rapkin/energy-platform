@@ -1,11 +1,12 @@
 import pools from './pools'
 import devices from './devices'
 import records from './records'
-import types from './types'
+import startform from './startform'
 
 export default {
     pools,
     devices,
     records,
-    types
+    startform
 }
+
