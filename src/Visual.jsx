@@ -7,7 +7,7 @@ import SideBar from './components/SideBar.jsx'
 const position1 = [51.505, -0.09]
 const position2 = [51.505, -0.10]
 
-class App extends Component {
+class Visual extends Component {
   constructor () {
     super()
     this.state = {
@@ -17,6 +17,10 @@ class App extends Component {
 
   selectedHospital (id) {
     this.setState({ selectedHospital: id })
+  }
+
+  onClose () {
+    this.setState({ selectedHospital: null })
   }
 
   render () {
@@ -33,10 +37,14 @@ class App extends Component {
           <Marker onClick={() => this.selectedHospital(2)} position={position2}></Marker>
         </Map>
 
-        {selectedHospital && <SideBar hospital={selectedHospital} />}
+        {selectedHospital &&
+          <SideBar
+            hospital={selectedHospital}
+            onClose={() => this.onClose()} />
+        }
       </div>
     )
   }
 }
 
-export default App
+export default Visual

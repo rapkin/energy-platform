@@ -9,6 +9,11 @@ code {
   font-family: Consolas, "Courier New", monospace;
 }
 
+.home-container {
+  padding: 40px 0;
+  text-align: center;
+}
+
 .sidebar-container {
     position: fixed;
     top: 0;
@@ -34,4 +39,19 @@ code {
 
 .hospital-description {
   padding: 0 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
 }
