@@ -12,3 +12,7 @@ code {
 .app-container {
     padding: 20px 0;
 }
+
+.map-container {
+    height: 90vh;
+}
