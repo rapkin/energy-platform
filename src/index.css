@@ -18,7 +18,7 @@ code {
     position: fixed;
     top: 0;
     right: 0;
-    width: 50%;
+    width: 600px;
     height: 100vh;
     overflow-y: auto;
     z-index: 10;

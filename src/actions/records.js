@@ -9,6 +9,13 @@ async function fetchRecords(pools) {
     return data
 }
 
+async function fetchRecordsByHospital(hospitalId) {
+    if (!hospitalId) throw new Error('hospitalId argument required')
+    const { data } = await axios(`${api}/hospitals/${hospitalId}/data`)
+    return data
+}
+
 export default {
-    fetchRecords
+    fetchRecords,
+    fetchRecordsByHospital
 }
