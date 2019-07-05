@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+.app-container {
+    padding: 20px 0;
+}
