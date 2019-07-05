@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import Home from './Home.jsx'
 import * as serviceWorker from './serviceWorker'
+import ButtonMain from './components/Button.js'
 
 ReactDOM.render(<Home />, document.getElementById('root'))
 
