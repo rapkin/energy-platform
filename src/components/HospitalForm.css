@@ -1,0 +1,70 @@
+.form-wrapper {
+	border: 1px solid #5F9EA0;
+	border-radius: 5px;
+	padding: 4%;
+	
+}
+
+.main-wrapper {
+	display: flex;
+}
+
+.block-wrapper {
+	padding: 1%;
+	background: #f4f4f4;
+	margin-top: 1%;
+	border-radius: 5px;
+	width: 30%;
+	justify-content: space-between;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.app-container {
+	background: #B0E0E6;
+}
+
+header {
+	line-height: 1.5;
+	color:  red;
+}
+
+.container {
+	padding: 2% 0;
+}
+
+.add-obj {
+	background: #f4f4f4;
+	color: blue;
+}
+
+.pic-wrapper > img {
+	width: 60%;
+}
+
+label {
+	font-weight: 600;
+}
+
+.textarea-field {
+	margin-top: 2%;
+}
+
+textarea {
+	width: 95%;
+	border: 1px solid #008080;
+	margin: 0 auto;
+	display: block;
+}
+
+a.link-href {
+	text-align: center;
+}
+
+.inputfield {
+	padding: 1%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+
+
+}
