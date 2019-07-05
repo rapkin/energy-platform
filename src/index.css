@@ -25,3 +25,13 @@ code {
     width: 100%;
     z-index: 0;
 }
+
+.hospital-card {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.hospital-description {
+  padding: 0 10px;
+}
