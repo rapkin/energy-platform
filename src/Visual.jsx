@@ -4,8 +4,8 @@ import { Button, Container, Header } from 'semantic-ui-react'
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 import SideBar from './components/SideBar.jsx'
 
-const position1 = [51.505, -0.09]
-const position2 = [51.505, -0.10]
+const position1 = [50.948353, 28.631967]
+const position2 = [50.938353, 28.641967]
 
 class Visual extends Component {
   constructor () {
